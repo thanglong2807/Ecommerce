@@ -1,5 +1,5 @@
-import { configureStore } from '@reduxjs/toolkit'
-import counterReducer from ''
-import globalStore from './globalStore'
+import { createStore } from "redux";
+import rootReducer from "./reducer";
+const store = createStore(rootReducer)
 
-export const store = configureStore(globalStore)
+export default store

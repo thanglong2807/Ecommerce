@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-    value: 0,
+
 }
 
 export const globalStore = createSlice({
@@ -13,6 +13,6 @@ export const globalStore = createSlice({
 })
 
 // Action creators are generated for each case reducer function
-export const { increment, decrement, incrementByAmount } = globalStore.actions
+export const { } = globalStore.actions
 
 export default globalStore.reducer

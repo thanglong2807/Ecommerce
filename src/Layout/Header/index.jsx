@@ -25,35 +25,23 @@ const Header = () => {
             <div className="header_top-item df">
               <ul className="list--top df ">
                 <li>Follow us:</li>
-                <li>
-                  <Link>
-                    <img src={Twitter} alt="" />
-                  </Link>
+                <li className="df align-item">
+                  <img src={Twitter} alt="" />
                 </li>
-                <li>
-                  <Link>
-                    <img src={Facebook} alt="" />
-                  </Link>
+                <li className="df align-item">
+                  <img src={Facebook} alt="" />
                 </li>
-                <li>
-                  <Link>
-                    <img src={Pinterest} alt="" />
-                  </Link>
+                <li className="df align-item">
+                  <img src={Pinterest} alt="" />
                 </li>
-                <li>
-                  <Link>
-                    <img src={Reddit} alt="" />
-                  </Link>
+                <li className="df align-item">
+                  <img src={Reddit} alt="" />
                 </li>
-                <li>
-                  <Link>
-                    <img src={Youtube} alt="" />
-                  </Link>
+                <li className="df align-item">
+                  <img src={Youtube} alt="" />
                 </li>
-                <li>
-                  <Link>
-                    <img src={Instagram} alt="" />
-                  </Link>
+                <li className="df align-item">
+                  <img src={Instagram} alt="" />
                 </li>
               </ul>
               <div className="select df">

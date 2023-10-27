@@ -1,26 +1,23 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { publicRoute } from "./Routes";
-import Header from "./Layout/Header";
-import Footer from "./Layout/Footer";
-import CommonStyle from "./globalStyle/common";
-
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <CommonStyle />
-      <Router>
-        <Header />
-        <Routes>
-          {
-            publicRoute.map(item => {
-              const Layout = item.component
-              return <Route key={item.id} path={item.path} element={<Layout />} />
-            })
-          }
-        </Routes>
-        <Footer />
-      </Router>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
